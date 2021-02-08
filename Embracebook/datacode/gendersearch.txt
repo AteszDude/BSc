@@ -1,0 +1,37 @@
+DROPPED!!!!
+
+
+in: looking for, mygender
+0 - male, 1 - female, 2 - both
+mydata:possible users
+
+looking for
+
+0: 0, 1, 2
+1: 3, 4, 5
+2: 0 - 8
+
+mygender:
+
+0: 0, 2, 3, 5, 6, 8
+1: 1, 2, 4, 5, 7, 8
+2: 2, 5, 6, 7, 8
+
+out: preferred users
+
+
+e.g. if im male and looking for female
+looking for 1: 3, 4, 5
+mygender 0: 0, 2, 3, 5, 6, 8
+Union: 3, which is a female user looking for a male
+
+
+0-0	0, 2
+0-1	1, 2
+0-2	2
+1-0	3, 5
+1-1	4, 5
+1-2	5
+2-0	0, 2, 3, 5, 6, 8
+2-1	1, 2, 4, 5, 7, 8
+2-2	2, 5, 6, 7, 8

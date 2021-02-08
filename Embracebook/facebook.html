@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="embracebook">
+<head>
+<title>Welcome to Embracebook! | Embracebook</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="common.css" type="text/css" media="all" />
+<link rel="stylesheet" href="welcome.css" type="text/css" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+<body class="welcome">
+<div id="book">
+  <div id="sidebar"><a href="#" class="go_home" style="background-image:url(images/embracebook_logo.gif)"> </a>
+    <div id="sidebar_content">
+      <div id="squicklogin">
+        <form method="post" action="https://login.facebook.com/login.php" id="loginform" onsubmit="quicklogin();">
+          <input type="hidden" id="challenge" name="challenge" value="1337cb53d617c186751cd5edaa1dbb79" />
+          <input type="hidden" id="md5pass" name="md5pass" value="1" />
+          <input type="hidden" id="noerror" name="noerror" value="1" />
+          <label><span>Email:</span><br />
+          <input type="text" class="inputtext" name="email" value="" id="email" size="20" onkeypress="login_form_change()" />
+          </label>
+          <br />
+          <label><span>Password:</span><br />
+          <input class="inputtext" type="password" name="pass" id="pass" size="20" />
+          </label>
+          <label class="persistent">
+          <input type="checkbox" class="inputcheckbox" onclick="if (this.checked) {this.dialog=(new contextual_dialog(null, true)).set_context(this).show_message('Facebook Login', 'By selecting \x22remember me\x22 you will stay logged into this computer until you click logout. If this is a public computer please do not use this feature.');this.dialog.content.getElementsByTagName('input')[0].focus()}else if (this.dialog)this.dialog.hide()" id="persistent" name="persistent" value="1" />
+          <span>Remember me</span></label>
+          <input type="submit" value="Login" name="doquicklogin" id="doquicklogin" onclick="this.disabled=true; this.form.submit();" class="inputsubmit" />
+          <input type="hidden" id="charset_test" name="charset_test" value="€´€´水ДЄ" />
+        </form>
+        <a href="reset.php">Forgot Password?</a></div>
+    </div>
+  </div>
+  <div id="widebar" class="clearfix">
+    <div id="navigator">
+      <ul class="secondary_set" id="nav_unused_2">
+        <li><a href="sitetour/">Site tour</a></li>
+        <li><a href="login.php">Login</a></li>
+      </ul>
+    </div>
+    <div id="page_body" class="pagebody welcome">
+      <div id="content_shadow">
+        <div id="content" class="clearfix">
+          <div id="content_frame">
+            <div id="content_stage" class="clearfix">
+              <div class="main_column">
+                <div id="welcome">
+                
+                
+                
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pagefooter" class="clearfix">
+      <div class="copyright"><span title="Non-Trimmed">Embracebook </span><span title="103">&copy;</span> <span title="10.17.23.112">20</span><span title="23109008">08</span> </div>
+      <div class="f_links">
+        <ul class="footer_links" id="nav_unused_3"><li><a href="http://developers.facebook.com">Developers</a></li>
+          <li><a href="http://www.facebook.com/about.php">About Embracebook</a></li>
+          <li><a href="http://www.facebook.com/terms.php">Terms</a></li>
+          <li><a href="http://www.facebook.com/policy.php">Privacy</a></li>
+          <li><a href="http://www.facebook.com/help.php">Help</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

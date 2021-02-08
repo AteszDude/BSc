@@ -1,0 +1,40 @@
+login
+
+profiles
+    - Name
+    - Age
+    - Hometown
+    - Sex
+    - Marital Status
+    - What I'm Looking for
+    - Turn On's
+    - Turn Off's
+    - Religeous Views
+    - Chilren
+    - Interests
+          - Books
+          - Animals
+          - Films
+          - Music
+          - Cuisine
+          
+    - ideal date   
+    - Occupation
+    - Salary
+      
+    - Privacy Settings
+    - Customisation
+
+Uploading Pictures
+
+Wall
+
+Search Funtions                       Attila
+
+Messaging system
+
+Matchmaking application
+
+Security (View only if registered)
+
+testing

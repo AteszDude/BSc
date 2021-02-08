@@ -1,0 +1,95 @@
+/*
+  The main css style sheet. Should be used in all pages to keep a consistant
+  colour scheme and layout.
+*/
+
+
+body
+{
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1
+{
+  color: #bbc;
+}
+
+
+
+a:hover
+{
+  background: #adc1d9;
+}
+
+.loginbox
+{
+  color: #fff;
+}
+
+img
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.centre
+{
+  text-align: center;
+}
+
+.content
+{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.mainloginbox
+{
+  background-image: url(http://farm1.static.flickr.com/100/298114820_24fb558ac6.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  
+  text-align: left;
+  
+  width: 600px;
+  
+  margin: 0 auto;
+}
+
+.leftheader
+{
+  background-image: url(images/embracebook-small.png);
+  background-color: #3b5998;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 200px;
+  float: left;
+  background-position: 10px 20px;
+  
+  border-width: 0px;
+  border-bottom-width: 5px;
+  border-style: solid;
+  border-color: #6d84b4;
+}
+
+.rightheader
+{
+  //background-image: url(images/embracebook.png);
+  background-color: #3b5998;
+  //background-repeat: no-repeat;
+  height: 35px;
+}
+
+.maincontent
+{
+}
+
+
+
+

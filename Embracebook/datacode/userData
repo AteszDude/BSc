@@ -1,0 +1,78 @@
+ORIENTATION
+
+0 - MALE - MALE
+1 - MALE - FEMALE
+2 - MALE - BOTH
+3 - FEMALE - MALE
+4 - FEMALE - FEMALE
+5 - FEMALE - BOTH
+6 - BOTH - MALE
+7 - BOTH - FEMALE
+8 - BOTH - BOTH
+
+
+
+RELIGION
+
+0 - <STORED FOR FURTHER USE>
+1 - Anglican
+2 - Catholic
+3 - Lutheran
+4 - Jewish
+5 - Hindu
+6 - Atheist
+7 - Sathanist
+8 - Islam
+
+
+CHILDREN
+
+0 - <STORED FOR FURTHER USE>
+1 - Pff...
+2 - Someday
+3 - have one
+4 - have 2 or 3
+5 - 4 or more
+
+
+
+BOOKS
+
+0 - <STORED FOR FURTHER USE>
+1 - Can't read
+2 - Literature
+3 - Horror and Fantasy
+4 - Popular
+
+
+FILMS
+
+0 - <STORED FOR FURTHER USE>
+1 - Hate
+2 - Action
+3 - Comedy
+4 - Porn
+
+
+ANIMALS
+
+0 - <STORED FOR FURTHER USE>
+1 - Have Some
+2 - Just Eat and Wear
+3 - Nope
+
+
+
+MUSIC
+
+0 - <STORED FOR FURTHER USE>
+1 - Classical
+2 - Jazz/Blues
+3 - Pop
+4 - Hard Rock
+5 - Black Metal
+
+
+
+
+
